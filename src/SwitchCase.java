@@ -3,27 +3,21 @@ public class SwitchCase {
 	public static void main(String[] args) {
 		char grade='C';
 		switch (grade) {
-		case 'A': {	
+		case 'A':
 			System.out.println("Mukemmel : Gectiniz");
 			break;
-		}
-		case 'B': {	
+		case 'B':
 			System.out.println("Çok Güzel : Gectiniz");
 			break;
-		}
-		case 'C': {	
-			System.out.println("İyi : Gectiniz");
+		case 'C':
+			System.out.println("Iyi : Gectiniz");
 			break;
-		}
-		case 'D': {	
+		case 'D':
 			System.out.println("Fena Degil : Gectiniz");
 			break;
-		}
-		case 'F': {	
+		case 'F': 
 			System.out.println("Maalesef : Kaldiniz");
 			break;
-		}
-		
 		default:
 			System.out.println("Boyle bir not yok");
 		}
